@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Drop Ball Effect",
+    "description": "Pridá efekt padajúcej lopty na YouTube.",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["scripts/content.js"]
+      }
+    ]
+  }

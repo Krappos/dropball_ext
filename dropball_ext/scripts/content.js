@@ -3,10 +3,7 @@ function initVolumeWatcher() {
     const ball = document.querySelector('.ytp-volume-slider-handle');
     const muteButton = document.querySelector('.ytp-mute-button');
 
-    if (!slider || !ball || !muteButton) {
-        console.warn("Required YouTube elements not found.");
-        return;
-    }
+
 
     let hasFallen = false;
     let fallCount = 0;
